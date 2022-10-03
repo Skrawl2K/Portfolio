@@ -1,0 +1,68 @@
+/* =========================== ASSETS ==================================== */
+
+/* =========================== GENERELL ==================================== */
+
+html {
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* =========================== HEADER ==================================== */
+
+header {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row
+}
+
+header h1 {
+    color: blue;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav ul {
+    list-style: none;
+    display: inline-flex;
+    margin-left: 60rem;
+    margin-top: 3rem;
+}
+
+header nav ul div:nth-of-type(1) {
+    align-items: flex-end;
+
+}
+
+header nav ul li {
+    padding: 1rem 2rem;
+
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+
+.highlight-element {
+    background-color: rgb(84, 0, 253);
+    border-radius: 15px;
+    color: #fff;
+}
+
+/* =========================== MAIN ==================================== */
+
+/* =========================== FOOTER ==================================== */
