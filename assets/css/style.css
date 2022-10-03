@@ -18,13 +18,14 @@ html {
 header {
     display: inline-flex;
     width: 100%;
-    flex-direction: row
+    flex-direction: row;
 }
 
 header h1 {
     color: blue;
     margin-top: 3rem;
     margin-left: 2rem;
+    align-items: center;
 }
 
 
@@ -63,6 +64,58 @@ header nav ul li a {
     color: #fff;
 }
 
+.bold-element {
+    font-weight: bold;
+    font-size: 6rem;
+}
+
 /* =========================== MAIN ==================================== */
+
+main {
+    height: 80rem;
+    /* background-image: url("../img/1564eb50-3fde-48ef-a75f-11ecfcf96bf4.JPG");
+    background-repeat: no-repeat;
+    background-size: 35rem;
+    background-position-x: 60rem;
+    box-shadow: 0 0 1px 2px rgb(84, 0, 253); */
+}
+
+main section {
+    display: flex;
+    margin-top: 10rem;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 10rem;
+}
+
+main section a {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(84, 0, 253);
+    border-radius: 15px;
+    width: 10rem;
+    height: 8rem;
+    text-align: center;
+}
+
+main section h1 {
+    align-items: center;
+}
+
+main article {
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+main article h1 {}
+
+main article img {
+
+    width: 30%;
+    height: auto;
+    margin-left: 15rem;
+    box-shadow: 26px 28px 0px rgb(84, 0, 253);
+}
 
 /* =========================== FOOTER ==================================== */
