@@ -3,14 +3,14 @@
 /* =========================== GENERELL ==================================== */
 
 html {
-    font-size: 10px;
+
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-size: 10px;
 }
 
 /* =========================== HEADER ==================================== */
@@ -26,12 +26,20 @@ header h1 {
     margin-top: 3rem;
     margin-left: 2rem;
     align-items: center;
+    font-weight: lighter;
+    font-size: 2rem;
+    width: 15rem;
 }
 
+.headline1 {
+    display: flex;
+    flex-direction: row;
+}
 
 header nav {
     display: flex;
     justify-content: space-evenly;
+    margin-left: -10rem;
 }
 
 header nav ul {
@@ -54,7 +62,7 @@ header nav ul li {
 header nav ul li a {
     color: black;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 
@@ -62,22 +70,39 @@ header nav ul li a {
     background-color: rgb(84, 0, 253);
     border-radius: 15px;
     color: #fff;
+    width: 12rem;
+    text-align: center;
 }
 
-.bold-element {
+.bold-element1 {
     font-weight: bold;
-    font-size: 6rem;
+    font-size: 8rem;
+    margin-bottom: -2rem;
+
+}
+
+
+
+.light-element {
+    font-weight: lighter;
+    font-size: 1.8rem;
+    margin-top: -1rem;
 }
 
 /* =========================== MAIN ==================================== */
 
 main {
     height: 80rem;
+    margin: 15rem 0rem 0 0rem;
     /* background-image: url("../img/1564eb50-3fde-48ef-a75f-11ecfcf96bf4.JPG");
     background-repeat: no-repeat;
     background-size: 35rem;
     background-position-x: 60rem;
     box-shadow: 0 0 1px 2px rgb(84, 0, 253); */
+}
+
+.hero-size{
+    margin: 0rem 10rem 0 10rem;
 }
 
 main section {
@@ -86,6 +111,22 @@ main section {
     flex-direction: column;
     justify-content: space-between;
     line-height: 10rem;
+}
+
+.arrow-welcome {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: rgb(84, 0, 253);
+}
+
+.button1 {
+    font-size: 3rem;
+    font-weight: bold;
+    width: 25rem;
+    height: 8rem;
+    text-text: center;
+    border-radius: 50px;
+    padding-bottom: 10rem;
 }
 
 main section a {
@@ -102,20 +143,239 @@ main section h1 {
     align-items: center;
 }
 
+
+
 main article {
     display: flex;
     align-items: center;
-    margin-top: 10rem;
+    margin-top: 40rem;
 }
 
 main article h1 {}
 
-main article img {
+.bold-element2 {
+    font-weight: bold;
+    font-size: 8rem;
+    margin-bottom: -2rem;
+}
 
-    width: 30%;
+
+.bold-element3 {
+    font-weight: bold;
+    font-size: 8rem;
+    margin-bottom: -4rem;
+    margin-left: 8rem;
+}
+
+
+.text1 {
+    font-size: 1.5rem;
+    margin-right: -60rem;
+    margin-left: 30rem;
+}
+
+.icons1-align {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2.5rem;
+    margin-right: 24rem;
+}
+
+.author {
+    width: 40%;
     height: auto;
     margin-left: 15rem;
     box-shadow: 26px 28px 0px rgb(84, 0, 253);
+    margin-top: -120rem;
+    margin-left: -rem;
 }
 
+.ts-title{
+    color: #fff;
+    font-size: 10rem;
+    font-weight: bold;
+    margin-left: 5rem;
+    padding-top: 15rem;;
+}
+
+.ts-images {
+    height: 10rem;
+}
+.tech-stack-background{
+    background-color: rgb(84, 0, 253);
+    height: 100vh;
+}
+.tech-stack-generell {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 1fr ;
+    gap:  0rem 3rem;
+    padding: 0 10rem;
+    margin-top: -1rem;
+}
+
+.ts-text {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* ! TECH-STACK GRID ROW 1 */
+
+.ts-row1-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.ts-row1-2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.ts-row1-3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.ts-row1-4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.ts-row1-5 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.ts-row1-6 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.ts-row1-7 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.ts-row1-8 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.ts-row1-9 {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    width: 15rem;
+}
+
+.ts-row1-10 {
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+.ts-row1-11 {
+    grid-column: 6/7;
+    grid-row: 1/2;
+}
+
+.ts-row1-12 {
+    grid-column: 6/7;
+    grid-row: 2/3;
+}
+
+.ts-row1-13 {
+    grid-column: 7/8;
+    grid-row: 1/2;
+}
+
+.ts-row1-14 {
+    grid-column: 7/8;
+    grid-row: 2/3;
+}
+
+/* ! TECH-STACK GRID ROW 2 */
+
+.ts-row2-1 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.ts-row2-2 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.ts-row2-3 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.ts-row2-4 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.ts-row2-5 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.ts-row2-6 {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+.ts-row2-7 {
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.ts-row2-8 {
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+
+.ts-row2-9 {
+    grid-column: 5/6;
+    grid-row: 3/4;
+    width: 10rem;
+}
+
+.ts-row2-10 {
+    grid-column: 5/6;
+    grid-row: 4/5;
+}
+
+.ts-row2-11 {
+    grid-column: 6/7;
+    grid-row: 3/4;
+    width: 12rem;
+}
+
+.ts-row2-12 {
+    grid-column: 6/7;
+    grid-row: 4/5;
+}
+
+.ts-row2-13 {
+    grid-column: 7/8;
+    grid-row: 3/4;
+}
+
+.ts-row2-14 {
+    grid-column: 7/8;
+    grid-row: 4/5;
+}
+
+
+.resume{
+
+}
 /* =========================== FOOTER ==================================== */
